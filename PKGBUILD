@@ -8,7 +8,7 @@ arch=('x86_64')
 license=('GPL3')
 groups=('kawaii')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/LeonidPilyugin/$pkgname/releases/download/v$pkgver/files.tar.gz")
-sha256sums=('09c3fa3c499b610db0e7a079ebbd177e56f11f84bfdd0ddcf045e4e09135a682')
+sha256sums=('97a809ddc2abbdf28c0e7a3133eecdeddc3b93eec1012086375ed7118307681f')
 
 package() {
     srcdir=$srcdir/files
